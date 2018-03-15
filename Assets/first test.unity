@@ -26,7 +26,11 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+<<<<<<< HEAD
   m_SkyboxMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  m_SkyboxMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> 202acda6a7e6e9c94835b80b5ce6f7f9bd1187ae
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +42,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.63964283, g: 0.63964283, b: 0.7338973, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> 202acda6a7e6e9c94835b80b5ce6f7f9bd1187ae
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -380,6 +388,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &26598027
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +572,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &34942098
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,6 +672,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &54663929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,6 +1108,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &86122570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,7 +1291,7 @@ GameObject:
   - component: {fileID: 93662680}
   m_Layer: 0
   m_Name: "\u683C (23)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1364,6 +1376,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 11}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &96844517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,6 +1812,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &117911428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,6 +1996,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 8}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &132785079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,6 +2096,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &140110262
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,6 +2448,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &150080287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,6 +2548,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &151269079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2882,6 +2900,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 1}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &195694304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2981,6 +3000,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &197565887
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,6 +3184,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 1}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &200207244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3414,7 +3435,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 355806868}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &225862591
 GameObject:
@@ -4103,6 +4124,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &257118859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4790,6 +4812,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &287492554
 GameObject:
   m_ObjectHideFlags: 0
@@ -4889,6 +4912,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 1}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &299303083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,6 +5012,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 55}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &299982691
 GameObject:
   m_ObjectHideFlags: 0
@@ -5255,6 +5280,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &322721462
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,8 +5821,8 @@ Transform:
   - {fileID: 568115910}
   - {fileID: 1702797791}
   - {fileID: 1011433590}
-  - {fileID: 527131059}
   - {fileID: 216872733}
+  - {fileID: 527131059}
   - {fileID: 1323150215}
   - {fileID: 54663933}
   - {fileID: 78921698}
@@ -6207,6 +6233,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &367397723
 GameObject:
   m_ObjectHideFlags: 0
@@ -6642,6 +6669,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 4}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &399096031
 GameObject:
   m_ObjectHideFlags: 0
@@ -7077,6 +7105,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &426411580
 GameObject:
   m_ObjectHideFlags: 0
@@ -7260,6 +7289,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &434149528
 GameObject:
   m_ObjectHideFlags: 0
@@ -7611,6 +7641,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &455153551
 GameObject:
   m_ObjectHideFlags: 0
@@ -7962,6 +7993,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &472648421
 GameObject:
   m_ObjectHideFlags: 0
@@ -8061,6 +8093,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &473393617
 GameObject:
   m_ObjectHideFlags: 0
@@ -8664,6 +8697,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &521079293
 GameObject:
   m_ObjectHideFlags: 0
@@ -8830,7 +8864,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 355806868}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &540602589
 GameObject:
@@ -9350,7 +9384,7 @@ GameObject:
   - component: {fileID: 573101989}
   m_Layer: 0
   m_Name: "\u683C (11)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9435,6 +9469,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 11}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &588713759
 GameObject:
   m_ObjectHideFlags: 0
@@ -9618,6 +9653,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &605588759
 GameObject:
   m_ObjectHideFlags: 0
@@ -9801,6 +9837,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &617355654
 GameObject:
   m_ObjectHideFlags: 0
@@ -10068,6 +10105,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &650687369
 GameObject:
   m_ObjectHideFlags: 0
@@ -10251,6 +10289,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &664296442
 GameObject:
   m_ObjectHideFlags: 0
@@ -10518,6 +10557,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 1}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &673746143
 GameObject:
   m_ObjectHideFlags: 0
@@ -10616,7 +10656,7 @@ GameObject:
   - component: {fileID: 676083349}
   m_Layer: 0
   m_Name: "\u683C (5)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10701,6 +10741,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 11}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &677934926
 GameObject:
   m_ObjectHideFlags: 0
@@ -10800,6 +10841,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &694924680
 GameObject:
   m_ObjectHideFlags: 0
@@ -10899,6 +10941,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &700287988
 GameObject:
   m_ObjectHideFlags: 0
@@ -10998,6 +11041,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &708262273
 GameObject:
   m_ObjectHideFlags: 0
@@ -11097,6 +11141,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &710687534
 GameObject:
   m_ObjectHideFlags: 0
@@ -11279,7 +11324,7 @@ GameObject:
   - component: {fileID: 712638437}
   m_Layer: 0
   m_Name: "\u683C (11)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11364,6 +11409,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 11}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &715836062
 GameObject:
   m_ObjectHideFlags: 0
@@ -11378,7 +11424,7 @@ GameObject:
   - component: {fileID: 715836067}
   m_Layer: 0
   m_Name: "\u683C (10)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11463,6 +11509,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &725738657
 GameObject:
   m_ObjectHideFlags: 0
@@ -11477,7 +11524,7 @@ GameObject:
   - component: {fileID: 725738662}
   m_Layer: 0
   m_Name: "\u95E8\uFF086\uFF09"
-  m_TagString: Untagged
+  m_TagString: men
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11562,6 +11609,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 11}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &725861919
 GameObject:
   m_ObjectHideFlags: 0
@@ -11997,6 +12045,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &754575913
 GameObject:
   m_ObjectHideFlags: 0
@@ -12264,6 +12313,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &776409660
 GameObject:
   m_ObjectHideFlags: 0
@@ -13287,6 +13337,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &922700222
 GameObject:
   m_ObjectHideFlags: 0
@@ -13386,6 +13437,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &929556458
 GameObject:
   m_ObjectHideFlags: 0
@@ -13653,6 +13705,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &946349795
 GameObject:
   m_ObjectHideFlags: 0
@@ -14004,6 +14057,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &964385278
 GameObject:
   m_ObjectHideFlags: 0
@@ -14187,6 +14241,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &983198663
 GameObject:
   m_ObjectHideFlags: 0
@@ -14286,6 +14341,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &984106322
 GameObject:
   m_ObjectHideFlags: 0
@@ -14637,6 +14693,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1007149012
 GameObject:
   m_ObjectHideFlags: 0
@@ -14889,6 +14946,71 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 309
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1032985885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1032985887}
+  - component: {fileID: 1032985886}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1032985886
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032985885}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1.93
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1032985887
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032985885}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 0, z: -400}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1033409067
 GameObject:
   m_ObjectHideFlags: 0
@@ -15072,6 +15194,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1053065436
 GameObject:
   m_ObjectHideFlags: 0
@@ -15171,6 +15294,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1054594371
 GameObject:
   m_ObjectHideFlags: 0
@@ -15270,6 +15394,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1055675420
 GameObject:
   m_ObjectHideFlags: 0
@@ -15537,6 +15662,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1078343473
 GameObject:
   m_ObjectHideFlags: 0
@@ -15636,6 +15762,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 1}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1111365800
 GameObject:
   m_ObjectHideFlags: 0
@@ -15735,6 +15862,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1111541362
 GameObject:
   m_ObjectHideFlags: 0
@@ -15918,6 +16046,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1127753516
 GameObject:
   m_ObjectHideFlags: 0
@@ -16017,6 +16146,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 8}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1142806856
 GameObject:
   m_ObjectHideFlags: 0
@@ -16116,6 +16246,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 1}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1148062276
 GameObject:
   m_ObjectHideFlags: 0
@@ -16299,6 +16430,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1159483628
 GameObject:
   m_ObjectHideFlags: 0
@@ -16398,6 +16530,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1167320704
 GameObject:
   m_ObjectHideFlags: 0
@@ -16665,6 +16798,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1176413136
 GameObject:
   m_ObjectHideFlags: 0
@@ -17853,6 +17987,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 1}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1270593357
 GameObject:
   m_ObjectHideFlags: 0
@@ -17952,6 +18087,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1273923927
 GameObject:
   m_ObjectHideFlags: 0
@@ -18135,6 +18271,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 3, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1278520288
 GameObject:
   m_ObjectHideFlags: 0
@@ -18298,7 +18435,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280059676}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 83.22479, y: 18.35403, z: 1.820355}
+  m_LocalPosition: {x: 83.22479, y: 18.7, z: 1.820355}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 355806868}
@@ -18318,6 +18455,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1281292252
 GameObject:
   m_ObjectHideFlags: 0
@@ -18417,6 +18555,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1284868340
 GameObject:
   m_ObjectHideFlags: 0
@@ -18516,6 +18655,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1293130144
 GameObject:
   m_ObjectHideFlags: 0
@@ -18783,6 +18923,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1315441510
 GameObject:
   m_ObjectHideFlags: 0
@@ -18966,6 +19107,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1323150211
 GameObject:
   m_ObjectHideFlags: 0
@@ -19149,6 +19291,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1337163644
 GameObject:
   m_ObjectHideFlags: 0
@@ -19584,6 +19727,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1365800415
 GameObject:
   m_ObjectHideFlags: 0
@@ -19767,6 +19911,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1383938212
 GameObject:
   m_ObjectHideFlags: 0
@@ -19950,6 +20095,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1387419784
 GameObject:
   m_ObjectHideFlags: 0
@@ -20049,6 +20195,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1397165848
 GameObject:
   m_ObjectHideFlags: 0
@@ -20232,6 +20379,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1406484969
 GameObject:
   m_ObjectHideFlags: 0
@@ -20835,6 +20983,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1454404565
 GameObject:
   m_ObjectHideFlags: 0
@@ -20934,6 +21083,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 11, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1474062507
 GameObject:
   m_ObjectHideFlags: 0
@@ -21117,6 +21267,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1477495875
 GameObject:
   m_ObjectHideFlags: 0
@@ -21468,6 +21619,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1508818749
 GameObject:
   m_ObjectHideFlags: 0
@@ -21734,7 +21886,7 @@ GameObject:
   - component: {fileID: 1549074005}
   m_Layer: 0
   m_Name: "\u95E8\uFF085\uFF09"
-  m_TagString: Untagged
+  m_TagString: men
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21819,6 +21971,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 11}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1549793448
 GameObject:
   m_ObjectHideFlags: 0
@@ -22338,6 +22491,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1587563733
 GameObject:
   m_ObjectHideFlags: 0
@@ -22773,6 +22927,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1626879680
 GameObject:
   m_ObjectHideFlags: 0
@@ -22956,6 +23111,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1644684476
 GameObject:
   m_ObjectHideFlags: 0
@@ -23139,6 +23295,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1651971904
 GameObject:
   m_ObjectHideFlags: 0
@@ -23910,6 +24067,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1761594615
 GameObject:
   m_ObjectHideFlags: 0
@@ -24177,6 +24335,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1782326431
 GameObject:
   m_ObjectHideFlags: 0
@@ -24360,6 +24519,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 1, y: 4}
   isdoor: 1
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1807169722
 GameObject:
   m_ObjectHideFlags: 0
@@ -24543,6 +24703,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1811215911
 GameObject:
   m_ObjectHideFlags: 0
@@ -25062,6 +25223,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1836917585
 GameObject:
   m_ObjectHideFlags: 0
@@ -25245,6 +25407,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 7, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1857597809
 GameObject:
   m_ObjectHideFlags: 0
@@ -25344,6 +25507,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1858227043
 GameObject:
   m_ObjectHideFlags: 0
@@ -25443,6 +25607,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1859123268
 GameObject:
   m_ObjectHideFlags: 0
@@ -25710,6 +25875,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 6, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1874356689
 GameObject:
   m_ObjectHideFlags: 0
@@ -25808,7 +25974,7 @@ GameObject:
   - component: {fileID: 1875764167}
   m_Layer: 0
   m_Name: "\u683C (14)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25893,6 +26059,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1878238278
 GameObject:
   m_ObjectHideFlags: 0
@@ -26328,6 +26495,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1913082277
 GameObject:
   m_ObjectHideFlags: 0
@@ -26595,6 +26763,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1937164878
 GameObject:
   m_ObjectHideFlags: 0
@@ -26778,6 +26947,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 9}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1942113719
 GameObject:
   m_ObjectHideFlags: 0
@@ -26877,6 +27047,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 6}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1954387572
 GameObject:
   m_ObjectHideFlags: 0
@@ -26976,6 +27147,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1955987544
 GameObject:
   m_ObjectHideFlags: 0
@@ -27075,6 +27247,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 2, y: 4}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1965196509
 GameObject:
   m_ObjectHideFlags: 0
@@ -27425,7 +27598,7 @@ GameObject:
   - component: {fileID: 2001476743}
   m_Layer: 0
   m_Name: "\u683C (29)"
-  m_TagString: Untagged
+  m_TagString: gezi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27510,6 +27683,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 11}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2009207720
 GameObject:
   m_ObjectHideFlags: 0
@@ -27609,6 +27783,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 8}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2041231973
 GameObject:
   m_ObjectHideFlags: 0
@@ -27708,6 +27883,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 10, y: 10}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2046653345
 GameObject:
   m_ObjectHideFlags: 0
@@ -27807,6 +27983,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 2}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2053412726
 GameObject:
   m_ObjectHideFlags: 0
@@ -28074,6 +28251,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 8, y: 7}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2077384030
 GameObject:
   m_ObjectHideFlags: 0
@@ -28173,6 +28351,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 9, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2081837291
 GameObject:
   m_ObjectHideFlags: 0
@@ -28272,6 +28451,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 3}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2094044971
 GameObject:
   m_ObjectHideFlags: 0
@@ -28371,6 +28551,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 5, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2096701213
 GameObject:
   m_ObjectHideFlags: 0
@@ -28554,6 +28735,7 @@ MonoBehaviour:
   ischaracter: 0
   zhuobiao: {x: 4, y: 5}
   isdoor: 0
+  gezi_color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2108859581
 GameObject:
   m_ObjectHideFlags: 0
