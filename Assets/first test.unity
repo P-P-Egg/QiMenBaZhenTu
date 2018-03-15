@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 4, y: 10}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &26598027
 GameObject:
@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 6, y: 11}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &96844517
 GameObject:
@@ -2087,7 +2087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 7, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &140110262
 GameObject:
@@ -2352,7 +2352,6 @@ GameObject:
   - component: {fileID: 147498907}
   - component: {fileID: 147498906}
   - component: {fileID: 147498905}
-  - component: {fileID: 147498909}
   m_Layer: 0
   m_Name: "\u683C (21)"
   m_TagString: Untagged
@@ -2426,19 +2425,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &147498909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 147498904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 1, y: 9}
-  isdoor: 0
 --- !u!1 &150080287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,7 +2436,6 @@ GameObject:
   - component: {fileID: 150080290}
   - component: {fileID: 150080289}
   - component: {fileID: 150080288}
-  - component: {fileID: 150080292}
   m_Layer: 0
   m_Name: "\u683C (15)"
   m_TagString: Untagged
@@ -2524,19 +2509,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &150080292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 150080287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 10, y: 9}
-  isdoor: 0
 --- !u!1 &151269079
 GameObject:
   m_ObjectHideFlags: 0
@@ -6202,8 +6174,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 4, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
+--- !u!1 &361739515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 361739518}
+  - component: {fileID: 361739517}
+  - component: {fileID: 361739516}
+  m_Layer: 0
+  m_Name: New Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!102 &361739516
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 361739515}
+  m_Text: 7
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &361739517
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 361739515}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &361739518
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 361739515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -50, y: 13.6, z: 0.49090767}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &367397723
 GameObject:
   m_ObjectHideFlags: 0
@@ -7602,7 +7659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 8, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &455153551
 GameObject:
@@ -8050,7 +8107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 3, y: 10}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &473393617
 GameObject:
@@ -10682,7 +10739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 7, y: 11}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &677934926
 GameObject:
@@ -10976,7 +11033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 9, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &708262273
 GameObject:
@@ -11340,7 +11397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 9, y: 11}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &715836062
 GameObject:
@@ -11353,7 +11410,6 @@ GameObject:
   - component: {fileID: 715836065}
   - component: {fileID: 715836064}
   - component: {fileID: 715836063}
-  - component: {fileID: 715836067}
   m_Layer: 0
   m_Name: "\u683C (10)"
   m_TagString: Untagged
@@ -11427,19 +11483,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &715836067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 715836062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 9, y: 10}
-  isdoor: 0
 --- !u!1 &725738657
 GameObject:
   m_ObjectHideFlags: 0
@@ -11536,7 +11579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 8, y: 11}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 1
 --- !u!1 &725861919
 GameObject:
@@ -13271,7 +13314,6 @@ GameObject:
   - component: {fileID: 922700225}
   - component: {fileID: 922700224}
   - component: {fileID: 922700223}
-  - component: {fileID: 922700227}
   m_Layer: 0
   m_Name: "\u683C (28)"
   m_TagString: Untagged
@@ -13345,19 +13387,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &922700227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 922700222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 5, y: 10}
-  isdoor: 0
 --- !u!1 &929556458
 GameObject:
   m_ObjectHideFlags: 0
@@ -13537,7 +13566,6 @@ GameObject:
   - component: {fileID: 934548267}
   - component: {fileID: 934548266}
   - component: {fileID: 934548265}
-  - component: {fileID: 934548269}
   m_Layer: 0
   m_Name: "\u683C (9)"
   m_TagString: Untagged
@@ -13611,19 +13639,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &934548269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 934548264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 3, y: 9}
-  isdoor: 0
 --- !u!1 &946349795
 GameObject:
   m_ObjectHideFlags: 0
@@ -14517,7 +14532,6 @@ GameObject:
   - component: {fileID: 997349807}
   - component: {fileID: 997349806}
   - component: {fileID: 997349805}
-  - component: {fileID: 997349809}
   m_Layer: 0
   m_Name: "\u683C (27)"
   m_TagString: Untagged
@@ -14591,19 +14605,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &997349809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 997349804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 5, y: 9}
-  isdoor: 0
 --- !u!1 &1007149012
 GameObject:
   m_ObjectHideFlags: 0
@@ -15413,7 +15414,6 @@ GameObject:
   - component: {fileID: 1074712984}
   - component: {fileID: 1074712983}
   - component: {fileID: 1074712982}
-  - component: {fileID: 1074712986}
   m_Layer: 0
   m_Name: "\u683C (15)"
   m_TagString: Untagged
@@ -15487,19 +15487,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1074712986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1074712981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 4, y: 9}
-  isdoor: 0
 --- !u!1 &1078343473
 GameObject:
   m_ObjectHideFlags: 0
@@ -15876,7 +15863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 3, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &1127753516
 GameObject:
@@ -15974,7 +15961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 11, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 1
 --- !u!1 &1142806856
 GameObject:
@@ -16533,7 +16520,6 @@ GameObject:
   - component: {fileID: 1176224381}
   - component: {fileID: 1176224380}
   - component: {fileID: 1176224379}
-  - component: {fileID: 1176224383}
   m_Layer: 0
   m_Name: "\u683C (9)"
   m_TagString: Untagged
@@ -16607,19 +16593,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1176224383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1176224378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 9, y: 9}
-  isdoor: 0
 --- !u!1 &1176413136
 GameObject:
   m_ObjectHideFlags: 0
@@ -18712,7 +18685,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1307036617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -60, y: 66.354034, z: 1.820355}
+  m_LocalPosition: {x: -60.3, y: 66.354034, z: 1.820355}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 355806868}
@@ -18729,7 +18702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 2, y: 10}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &1315441510
 GameObject:
@@ -19008,7 +18981,6 @@ GameObject:
   - component: {fileID: 1334684643}
   - component: {fileID: 1334684642}
   - component: {fileID: 1334684641}
-  - component: {fileID: 1334684645}
   m_Layer: 0
   m_Name: "\u683C (27)"
   m_TagString: Untagged
@@ -19082,19 +19054,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 236
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1334684645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1334684640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 11, y: 9}
-  isdoor: 0
 --- !u!1 &1337163644
 GameObject:
   m_ObjectHideFlags: 0
@@ -19806,7 +19765,6 @@ GameObject:
   - component: {fileID: 1386034742}
   - component: {fileID: 1386034741}
   - component: {fileID: 1386034740}
-  - component: {fileID: 1386034744}
   m_Layer: 0
   m_Name: "\u683C (3)"
   m_TagString: Untagged
@@ -19880,19 +19838,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1386034744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1386034739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 2, y: 9}
-  isdoor: 0
 --- !u!1 &1387419784
 GameObject:
   m_ObjectHideFlags: 0
@@ -20688,7 +20633,6 @@ GameObject:
   - component: {fileID: 1445990435}
   - component: {fileID: 1445990434}
   - component: {fileID: 1445990433}
-  - component: {fileID: 1445990437}
   m_Layer: 0
   m_Name: "\u683C (3)"
   m_TagString: Untagged
@@ -20762,19 +20706,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1445990437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1445990432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 7, y: 9}
-  isdoor: 0
 --- !u!1 &1454404565
 GameObject:
   m_ObjectHideFlags: 0
@@ -22271,7 +22202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 6, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &1587563733
 GameObject:
@@ -22984,7 +22915,6 @@ GameObject:
   - component: {fileID: 1647124893}
   - component: {fileID: 1647124892}
   - component: {fileID: 1647124891}
-  - component: {fileID: 1647124895}
   m_Layer: 0
   m_Name: "\u683C (22)"
   m_TagString: Untagged
@@ -23058,19 +22988,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1647124895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1647124890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 6, y: 10}
-  isdoor: 0
 --- !u!1 &1651971904
 GameObject:
   m_ObjectHideFlags: 0
@@ -24902,7 +24819,6 @@ GameObject:
   - component: {fileID: 1835788873}
   - component: {fileID: 1835788872}
   - component: {fileID: 1835788871}
-  - component: {fileID: 1835788875}
   m_Layer: 0
   m_Name: "\u683C (4)"
   m_TagString: Untagged
@@ -24976,19 +24892,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1835788875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1835788870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 7, y: 10}
-  isdoor: 0
 --- !u!1 &1836917585
 GameObject:
   m_ObjectHideFlags: 0
@@ -25280,7 +25183,6 @@ GameObject:
   - component: {fileID: 1858227046}
   - component: {fileID: 1858227045}
   - component: {fileID: 1858227044}
-  - component: {fileID: 1858227048}
   m_Layer: 0
   m_Name: "\u683C (39)"
   m_TagString: Untagged
@@ -25354,19 +25256,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 267
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1858227048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858227043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 8, y: 10}
-  isdoor: 0
 --- !u!1 &1859123268
 GameObject:
   m_ObjectHideFlags: 0
@@ -25546,7 +25435,6 @@ GameObject:
   - component: {fileID: 1863571291}
   - component: {fileID: 1863571290}
   - component: {fileID: 1863571289}
-  - component: {fileID: 1863571293}
   m_Layer: 0
   m_Name: "\u683C (21)"
   m_TagString: Untagged
@@ -25620,19 +25508,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1863571293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1863571288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 6, y: 9}
-  isdoor: 0
 --- !u!1 &1874356689
 GameObject:
   m_ObjectHideFlags: 0
@@ -25813,7 +25688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 10, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &1878238278
 GameObject:
@@ -26610,7 +26485,6 @@ GameObject:
   - component: {fileID: 1937455742}
   - component: {fileID: 1937455741}
   - component: {fileID: 1937455740}
-  - component: {fileID: 1937455744}
   m_Layer: 0
   m_Name: "\u683C (38)"
   m_TagString: Untagged
@@ -26684,19 +26558,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 266
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1937455744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1937455739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 8, y: 9}
-  isdoor: 0
 --- !u!1 &1942113719
 GameObject:
   m_ObjectHideFlags: 0
@@ -27521,7 +27382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zhuobiao: {x: 5, y: 8}
+  zhuobiao: {x: 0, y: 0}
   isdoor: 0
 --- !u!1 &2041231973
 GameObject:
@@ -27534,7 +27395,6 @@ GameObject:
   - component: {fileID: 2041231976}
   - component: {fileID: 2041231975}
   - component: {fileID: 2041231974}
-  - component: {fileID: 2041231978}
   m_Layer: 0
   m_Name: "\u683C (16)"
   m_TagString: Untagged
@@ -27608,19 +27468,6 @@ Transform:
   m_Father: {fileID: 355806868}
   m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2041231978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2041231973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zhuobiao: {x: 10, y: 10}
-  isdoor: 0
 --- !u!1 &2046653345
 GameObject:
   m_ObjectHideFlags: 0
