@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.63964283, g: 0.63964283, b: 0.7338973, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 10}
   isdoor: 0
 --- !u!1 &26598027
@@ -559,6 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 6}
   isdoor: 0
 --- !u!1 &34942098
@@ -657,6 +659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 3}
   isdoor: 0
 --- !u!1 &54663929
@@ -1091,6 +1094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 3}
   isdoor: 0
 --- !u!1 &86122570
@@ -1357,6 +1361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 11}
   isdoor: 0
 --- !u!1 &96844517
@@ -1791,6 +1796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 3}
   isdoor: 0
 --- !u!1 &117911428
@@ -1973,6 +1979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 8}
   isdoor: 1
 --- !u!1 &132785079
@@ -2071,6 +2078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 8}
   isdoor: 0
 --- !u!1 &140110262
@@ -2421,6 +2429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 9}
   isdoor: 0
 --- !u!1 &150080287
@@ -2519,6 +2528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 9}
   isdoor: 0
 --- !u!1 &151269079
@@ -2869,6 +2879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 1}
   isdoor: 0
 --- !u!1 &195694304
@@ -2967,6 +2978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 6}
   isdoor: 0
 --- !u!1 &197565887
@@ -3149,6 +3161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 1}
   isdoor: 0
 --- !u!1 &200207244
@@ -4087,6 +4100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 7}
   isdoor: 0
 --- !u!1 &257118859
@@ -4773,6 +4787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 6}
   isdoor: 0
 --- !u!1 &287492554
@@ -4871,6 +4886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 1}
   isdoor: 0
 --- !u!1 &299303083
@@ -4969,6 +4985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 55}
   isdoor: 0
 --- !u!1 &299982691
@@ -5235,6 +5252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 6}
   isdoor: 0
 --- !u!1 &322721462
@@ -6186,6 +6204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 8}
   isdoor: 0
 --- !u!1 &367397723
@@ -6620,6 +6639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 4}
   isdoor: 1
 --- !u!1 &399096031
@@ -7054,6 +7074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 6}
   isdoor: 0
 --- !u!1 &426411580
@@ -7236,6 +7257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 5}
   isdoor: 0
 --- !u!1 &434149528
@@ -7586,6 +7608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 8}
   isdoor: 0
 --- !u!1 &455153551
@@ -7936,6 +7959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 7}
   isdoor: 0
 --- !u!1 &472648421
@@ -8034,6 +8058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 10}
   isdoor: 0
 --- !u!1 &473393617
@@ -8636,6 +8661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 7}
   isdoor: 0
 --- !u!1 &521079293
@@ -9406,6 +9432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 11}
   isdoor: 0
 --- !u!1 &588713759
@@ -9588,6 +9615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 8}
   isdoor: 0
 --- !u!1 &605588759
@@ -9770,6 +9798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 2}
   isdoor: 0
 --- !u!1 &617355654
@@ -10036,6 +10065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 7}
   isdoor: 0
 --- !u!1 &650687369
@@ -10218,6 +10248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 7}
   isdoor: 0
 --- !u!1 &664296442
@@ -10484,6 +10515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 1}
   isdoor: 1
 --- !u!1 &673746143
@@ -10666,6 +10698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 11}
   isdoor: 0
 --- !u!1 &677934926
@@ -10764,6 +10797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 4}
   isdoor: 0
 --- !u!1 &694924680
@@ -10862,6 +10896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 2}
   isdoor: 0
 --- !u!1 &700287988
@@ -10960,6 +10995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 8}
   isdoor: 0
 --- !u!1 &708262273
@@ -11058,6 +11094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 4}
   isdoor: 0
 --- !u!1 &710687534
@@ -11324,6 +11361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 11}
   isdoor: 0
 --- !u!1 &715836062
@@ -11422,6 +11460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 10}
   isdoor: 0
 --- !u!1 &725738657
@@ -11520,6 +11559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 11}
   isdoor: 1
 --- !u!1 &725861919
@@ -11954,6 +11994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 2}
   isdoor: 0
 --- !u!1 &754575913
@@ -12220,6 +12261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 6}
   isdoor: 0
 --- !u!1 &776409660
@@ -13242,6 +13284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 5}
   isdoor: 0
 --- !u!1 &922700222
@@ -13340,6 +13383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 10}
   isdoor: 0
 --- !u!1 &929556458
@@ -13606,6 +13650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 9}
   isdoor: 0
 --- !u!1 &946349795
@@ -13956,6 +14001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 3}
   isdoor: 0
 --- !u!1 &964385278
@@ -14138,6 +14184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 5}
   isdoor: 0
 --- !u!1 &983198663
@@ -14236,6 +14283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 5}
   isdoor: 0
 --- !u!1 &984106322
@@ -14586,6 +14634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 9}
   isdoor: 0
 --- !u!1 &1007149012
@@ -15020,6 +15069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 4}
   isdoor: 0
 --- !u!1 &1053065436
@@ -15118,6 +15168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 4}
   isdoor: 0
 --- !u!1 &1054594371
@@ -15216,6 +15267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 4}
   isdoor: 0
 --- !u!1 &1055675420
@@ -15482,6 +15534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 9}
   isdoor: 0
 --- !u!1 &1078343473
@@ -15580,6 +15633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 1}
   isdoor: 0
 --- !u!1 &1111365800
@@ -15678,6 +15732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 3}
   isdoor: 0
 --- !u!1 &1111541362
@@ -15860,6 +15915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 8}
   isdoor: 0
 --- !u!1 &1127753516
@@ -15958,6 +16014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 8}
   isdoor: 1
 --- !u!1 &1142806856
@@ -16056,6 +16113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 1}
   isdoor: 1
 --- !u!1 &1148062276
@@ -16238,6 +16296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 4}
   isdoor: 0
 --- !u!1 &1159483628
@@ -16336,6 +16395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 5}
   isdoor: 0
 --- !u!1 &1167320704
@@ -16602,6 +16662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 9}
   isdoor: 0
 --- !u!1 &1176413136
@@ -17789,6 +17850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 1}
   isdoor: 0
 --- !u!1 &1270593357
@@ -17887,6 +17949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 6}
   isdoor: 0
 --- !u!1 &1273923927
@@ -18069,6 +18132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 3, y: 6}
   isdoor: 0
 --- !u!1 &1278520288
@@ -18251,6 +18315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 7}
   isdoor: 0
 --- !u!1 &1281292252
@@ -18349,6 +18414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 7}
   isdoor: 0
 --- !u!1 &1284868340
@@ -18447,6 +18513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 5}
   isdoor: 0
 --- !u!1 &1293130144
@@ -18713,6 +18780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 10}
   isdoor: 0
 --- !u!1 &1315441510
@@ -18895,6 +18963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 3}
   isdoor: 0
 --- !u!1 &1323150211
@@ -19077,6 +19146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 9}
   isdoor: 0
 --- !u!1 &1337163644
@@ -19511,6 +19581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 2}
   isdoor: 0
 --- !u!1 &1365800415
@@ -19693,6 +19764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 2}
   isdoor: 0
 --- !u!1 &1383938212
@@ -19875,6 +19947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 9}
   isdoor: 0
 --- !u!1 &1387419784
@@ -19973,6 +20046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 3}
   isdoor: 0
 --- !u!1 &1397165848
@@ -20155,6 +20229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 4}
   isdoor: 0
 --- !u!1 &1406484969
@@ -20757,6 +20832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 9}
   isdoor: 0
 --- !u!1 &1454404565
@@ -20855,6 +20931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 11, y: 6}
   isdoor: 0
 --- !u!1 &1474062507
@@ -21037,6 +21114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 7}
   isdoor: 0
 --- !u!1 &1477495875
@@ -21387,6 +21465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 4}
   isdoor: 0
 --- !u!1 &1508818749
@@ -21737,6 +21816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 11}
   isdoor: 1
 --- !u!1 &1549793448
@@ -22255,6 +22335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 8}
   isdoor: 0
 --- !u!1 &1587563733
@@ -22689,6 +22770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 3}
   isdoor: 0
 --- !u!1 &1626879680
@@ -22871,6 +22953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 7}
   isdoor: 0
 --- !u!1 &1644684476
@@ -23053,6 +23136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 10}
   isdoor: 0
 --- !u!1 &1651971904
@@ -23823,6 +23907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 2}
   isdoor: 0
 --- !u!1 &1761594615
@@ -24089,6 +24174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 2}
   isdoor: 0
 --- !u!1 &1782326431
@@ -24271,6 +24357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 1, y: 4}
   isdoor: 1
 --- !u!1 &1807169722
@@ -24453,6 +24540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 2}
   isdoor: 0
 --- !u!1 &1811215911
@@ -24971,6 +25059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 10}
   isdoor: 0
 --- !u!1 &1836917585
@@ -25153,6 +25242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 7, y: 3}
   isdoor: 0
 --- !u!1 &1857597809
@@ -25251,6 +25341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 7}
   isdoor: 0
 --- !u!1 &1858227043
@@ -25349,6 +25440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 10}
   isdoor: 0
 --- !u!1 &1859123268
@@ -25615,6 +25707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 6, y: 9}
   isdoor: 0
 --- !u!1 &1874356689
@@ -25797,6 +25890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 8}
   isdoor: 0
 --- !u!1 &1878238278
@@ -26231,6 +26325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 6}
   isdoor: 0
 --- !u!1 &1913082277
@@ -26497,6 +26592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 5}
   isdoor: 0
 --- !u!1 &1937164878
@@ -26679,6 +26775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 9}
   isdoor: 0
 --- !u!1 &1942113719
@@ -26777,6 +26874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 6}
   isdoor: 0
 --- !u!1 &1954387572
@@ -26875,6 +26973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 5}
   isdoor: 0
 --- !u!1 &1955987544
@@ -26973,6 +27072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 2, y: 4}
   isdoor: 0
 --- !u!1 &1965196509
@@ -27407,6 +27507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 11}
   isdoor: 0
 --- !u!1 &2009207720
@@ -27505,6 +27606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 8}
   isdoor: 0
 --- !u!1 &2041231973
@@ -27603,6 +27705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 10, y: 10}
   isdoor: 0
 --- !u!1 &2046653345
@@ -27701,6 +27804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 2}
   isdoor: 0
 --- !u!1 &2053412726
@@ -27967,6 +28071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 8, y: 7}
   isdoor: 0
 --- !u!1 &2077384030
@@ -28065,6 +28170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 9, y: 3}
   isdoor: 0
 --- !u!1 &2081837291
@@ -28163,6 +28269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 3}
   isdoor: 0
 --- !u!1 &2094044971
@@ -28261,6 +28368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 5, y: 5}
   isdoor: 0
 --- !u!1 &2096701213
@@ -28443,6 +28551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87ccec6b9de5f041aa5fd098484a945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ischaracter: 0
   zhuobiao: {x: 4, y: 5}
   isdoor: 0
 --- !u!1 &2108859581
