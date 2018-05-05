@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZhenFunction : MonoBehaviour {
-    
+public class Battlecharacter : MonoBehaviour {
+
+    public GameObject character;
 }

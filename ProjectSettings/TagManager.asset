@@ -6,6 +6,24 @@ TagManager:
   tags:
   - zhen
   - men
+  - cameracontrol
+  - weapon
+  - event
+  - monsterexi
+  - monsterclea
+  - artifact
+  - BattleCamera
+  - act(option)
+  - spell(option)
+  - item(option)
+  - information(option)
+  - act
+  - spell
+  - item
+  - information
+  - monster(battle)
+  - maincharacter(battle)
+  - battlebehaviour
   layers:
   - Default
   - TransparentFX
@@ -42,4 +60,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ui
+    uniqueID: 1236909487
     locked: 0
